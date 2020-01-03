@@ -2,7 +2,7 @@ window.addEventListener("keydown", checkKeyPress, false);
 let answerbox = document.getElementById('answerstyle');
 
 function getKeyValue(){
-    
+   
     if(event.target.value === "="){
         answerbox.value = eval(answerbox.value);
     }
